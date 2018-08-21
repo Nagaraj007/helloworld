@@ -15,7 +15,7 @@ ENV PATH "$PATH:/go/bin"
 RUN mkdir -p /go/src/github.com/helloworld/helloworld && \
     apk add --no-cache go build-base git && \
     cd /go/src/github.com/helloworld/helloworld && \
-    git clone https://github.com/Nagaraj007/HelloWord.git . && \
+    git clone https://github.com/Nagaraj007/helloworld.git . && \
     git checkout develop && \
     cd - && \
     rm -rf /go/src/github.com/helloworld/helloworld && \
