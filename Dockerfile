@@ -1,4 +1,4 @@
-From golang:alpine as build
+From golang:alpine
 
 ENV WORKING_DIR /helloworld
 
